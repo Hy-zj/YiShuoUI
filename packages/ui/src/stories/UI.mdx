@@ -1,0 +1,24 @@
+import { Meta, Source } from "@storybook/blocks";
+import dedent from 'ts-dedent'
+
+<Meta title="UI组件/开始" />
+
+# 开始
+
+## 1.1 下载
+`npm i yishuo-ui`
+
+## 1.2 使用
+<Source
+language="javascript"
+dark
+format={true}
+code={
+    dedent `
+    import {createApp} from 'vue'
+    import YiShuoUI from 'yishuo-ui'
+    import 'yishuo-ui/dist/style.css'
+    createApp().use(YiShuoUI)
+    `
+}
+ />
