@@ -1,5 +1,6 @@
 <template>
-    <div>
-        启动测试
-    </div>
+  11
 </template>
+
+<script setup>
+</script>
